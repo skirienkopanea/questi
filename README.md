@@ -8,3 +8,6 @@ Students join with the public link and can only ask, sort and vote questions. Mo
 ![screenshot](screenshot.jpg)
 
 ![screenshot](customize.jpg)
+
+## To do
+* Update screenshots after project is over.
