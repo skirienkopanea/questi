@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.6" prefWidth="884.0" spacing="20.0" style="-fx-background-color: d9c9d7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.tudelft.oopp.prod.controllers.HomeScreenController">
+   <children>
+      <Label id="homeLabelCourse" text="Welcome">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label id="homeLabelLecture" style="-fx-font-size: 15;" text="Please enter your name and the lecture link">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="link" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onEnter" prefHeight="36.0" prefWidth="250.0" promptText="Lecture Link" />
+      <TextField fx:id="username" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onEnter" prefHeight="36.0" prefWidth="250.0" promptText="Username" />
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#buttonEnterClicked" style="-fx-background-color: orange; -fx-background-radius: 360;" text="ENTER" textFill="WHITE" />
+      <Button mnemonicParsing="false" onAction="#scheduleLinkClicked" style="-fx-background-color: #03257e; -fx-background-radius: 360;" text="Schedule new meeting" textFill="WHITE" />
+      <Button fx:id="startDirect" mnemonicParsing="false" onAction="#startLectureDirectly" style="-fx-background-color: #03257e; -fx-background-radius: 360;" text="Start a new lecture directly" textFill="WHITE" />
+      <Button fx:id="helpButton" layoutX="342.0" layoutY="482.0" mnemonicParsing="false" onAction="#loadHelpPage" style="-fx-background-color: #03257e; -fx-background-radius: 360;" text="Help" textFill="WHITE" />
+   </children>
+   <padding>
+      <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+   </padding>
+</VBox>

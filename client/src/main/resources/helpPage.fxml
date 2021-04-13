@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" style="-fx-background-color: d9c9d7;" prefWidth="820.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="nl.tudelft.oopp.prod.controllers.HelpPageController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="820.0">
+         <children>
+            <VBox alignment="CENTER"  prefWidth="820.0" style="-fx-background-color: d9c9d7; -fx-padding: 20 20 20 20" spacing="17.0">
+               <children>
+            <Label fx:id="titleLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="30.0"/>
+               </font>
+            </Label>
+            <Label fx:id="introductionLabel" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0"/>
+               </font>
+            </Label>
+            <Label fx:id="howDoYouUseLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="25.0"/>
+               </font>
+            </Label>
+            <Label fx:id="studentLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="21.0"/>
+               </font>
+            </Label>
+            <Label fx:id="studentTextLabel" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0"/>
+               </font>
+            </Label>
+            <Label fx:id="lecturerLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="21.0"/>
+               </font>
+            </Label>
+            <Label fx:id="existingLectureLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="17.0"/>
+               </font>
+            </Label>
+            <Label fx:id="existingLectureTextLabel" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0"/>
+               </font>
+            </Label>
+            <Label fx:id="newLectureLabel" text="Label" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="17.0"/>
+               </font>
+            </Label>
+            <Label fx:id="newLectureTextLabel" text="Label" wrapText="true">
+               <font>
+                  <Font size="15.0"/>
+               </font>
+            </Label>
+            <Button fx:id="backButton" focusTraversable="false" layoutX="274.0" layoutY="152.0" mnemonicParsing="false" onAction="#loadHomeScreen"
+                    style="-fx-background-color: #03257e; -fx-background-radius: 360;" text="Back" textFill="WHITE"/>
+         </children>
+            </VBox>
+         </children>
+    </AnchorPane>
+  </content>
+</ScrollPane>

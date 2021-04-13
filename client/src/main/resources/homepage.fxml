@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.tudelft.oopp.dev.controllers.HomePage">
+    <Label text="J Cole verse:" />
+    <TextField fx:id="input" />
+    <Button fx:id="submit" onAction="#searchSongs" text="Search" />
+    <ListView fx:id="songList" prefHeight="200.0" prefWidth="400.0" />
+    <Button fx:id="testButton" onAction="#testButton" text="Test" />
+</VBox>

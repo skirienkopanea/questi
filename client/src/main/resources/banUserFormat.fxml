@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="121.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.tudelft.oopp.prod.controllers.BanUserFormatComponent">
+    <children>
+        <Pane layoutX="189.0" layoutY="106.0" prefHeight="127.0" prefWidth="200.0">
+            <children>
+                <Button fx:id="banButton" layoutX="134.0" layoutY="88.0" mnemonicParsing="false" onMouseClicked="#ban" text="Ban" />
+                <Text fx:id="username" layoutX="51.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
