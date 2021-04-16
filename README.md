@@ -32,8 +32,10 @@ Students join with the public link and can only ask, sort and vote questions. Mo
 1. Install IntelliJ IDEA 
 2. Import project from Gradle model 
 3. Ensure that the project runs on Java 8+
-4. Start Server Application called `ServerApp` at `server/../prod` folder
-5. Start Client Application called `Application` at `client/../prod` folder
+4. Create a PostrgreSQL database
+5. Update the credentials at server\src\main\resources\application.properties
+6. Start Server Application called `ServerApp` at `server/../prod` folder
+7. Start Client Application called `Application` at `client/../prod` folder
 
 ## How to Contribute 
 1. `git clone` this repository 
